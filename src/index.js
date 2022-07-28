@@ -6,7 +6,7 @@ import footer from "./components/footer/footer.js";
 import './styles.css';
 
 const content = document.querySelector('#content');
-content.append(navBar(), contactUs(), footer());
+content.append(navBar(), homePage(), footer());
 
 window.handleNavClick = function(page) {
     loadPage(page);
